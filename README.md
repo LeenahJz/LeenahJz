@@ -1,6 +1,6 @@
 -  ░░░ Heya, @LeenahJz here ░░░
 
--  ͚͚Ϟ working on things related to smart charging stations
+-  ͚͚Ϟ working on things related to PV and eMob
 
    ͚͚╔╗╚╝EV╚╝͚͚╔╗
 
