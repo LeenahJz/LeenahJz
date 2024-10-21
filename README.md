@@ -1,13 +1,11 @@
--  ░░░ Heya, @LeenahJz here ░░░
+-  ░░░ Hey there, @LeenahJz here ░░░
 
--  ͚͚Ϟ working on things related to PV and eMob
-
-   ͚͚╔╗╚╝EV╚╝͚͚╔╗
+-  ͚͚Ϟ not busy as it gets
 
 - 📫 How to reach me: 
       →discord: dntknyseur#0671 
-                                ┘
-- ◄           ﬁﬁ                 ►                     
+                                
+                   
                                 
 
 
