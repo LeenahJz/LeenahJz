@@ -1,0 +1,213 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    color: #333333; /* Texto gris oscuro */
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #005f73; /* Azul oscuro */
+    color: white;
+    padding: 30px 30px;
+}
+.header-content {
+    display: flex;
+    align-items:baseline;
+}
+.header-content .logo {
+    width: 10px;
+    height: 6px;
+    margin-right: 5px;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+/*Estilos para el menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /*Texto blanco */
+    text-decoration: none;
+    background-color: #0a9396; /*verde azulado */
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+
+nav ul li a:hover {
+    background-color: #005f73; /*Azul oscuro al pasar el mouse */
+}
+
+/*Estilos para las secciones de la página */
+main {
+    padding: 20px;
+    padding-bottom: 80px; /*Espacio suficiente para el footer */
+}
+
+section {
+    margin-bottom: 20px;
+    justify-content:space-between; 
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 2px solid #333;
+}
+
+/* Estilos para <h2> */
+h2 {
+    display: flex;
+    font-size: 2rem; /* Aumentamos el tamaño */
+    color: #005f73; /* Azul oscuro */
+    text-align: center; /* Centrar el texto */
+    text-align: start;
+    margin-bottom: 1rem; /* Separación del texto siguiente */
+    border-bottom: 2px solid #0a9396; /* Subrayado suave con el verde azulado */
+    padding-bottom: 0.5rem; /* Espacio antes del subrayado */
+}
+
+/* Estilos para <p> */
+
+.large-paragraph {
+    display: flex;
+    align-items: center; /* Centra verticalmente los íconos y el texto */
+    font-size: 1rem; /* Tamaño del texto del párrafo más grande */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin-bottom: 1.5rem; /* Espacio debajo de cada párrafo */
+    color: #333;
+}
+
+/* Tamaño y espaciado del ícono o imagen */
+.large-paragraph img.icono {
+    width: 30px; /* Tamaño de la imagen del ícono */
+    height: 30px;
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.button-container {
+    text-align: center;;
+    margin-top: 10px;
+}
+
+.reserva-button {
+    display: inline-block;
+    background-color: #f77f00; /* Color naranja vibrante */
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.reserva-button:hover {
+    background-color: #d97700; /* Color más oscuro al pasar el mouse */
+}
+
+/* Sección de Reseñas */
+#reseñas {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.reseñas-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.reseña {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%; /* Ajustamos el ancho para que quepan varias reseñas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reseña-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.reseña-texto p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.reseña-calificación {
+    color: #ffcc00; /* Color de las estrellas */
+}
+
+.reseña-calificación i {
+    margin-right: 5px;
+}
+
+.doctor-team {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.medicos {
+    
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%; /* Ajustamos el ancho para que quepan varias reseñas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos específicos para el párrafo del footer */
+footer p {
+    font-size: 1rem; /* Tamaño de fuente más pequeño */
+    margin: 0; /* Sin márgenes */
+    padding: 10px 0; /* Espaciado arriba y abajo */
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%; /* Aseguramos que ocupe todo el ancho */
+    position: relative; /* Aseguramos que esté en el flujo normal */
+    clear: both; /* Aseguramos que no flote sobre otros elementos */
+}
+
+.view {
+    display: none; /* Por defecto, ocultamos todas las vistas */
+}
+
+.view.active {
+    display: block; /* Mostramos solo la vista activa */
+}
+
