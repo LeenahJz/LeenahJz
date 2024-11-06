@@ -1,0 +1,151 @@
+// metodologia sass en section.scss
+
+@import '../abstracts/_variables.scss';
+
+section.view {
+    padding: 2rem;
+    background-color: $secondary-color;
+
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: $padding;
+
+
+
+        &{
+            @media (max-width: $breakpoint-md) {
+                display: block;
+                .cards_item{
+                    display: block;
+                    width: 60%;
+                }
+            }
+        }
+
+        &__item{
+            display: inline-block;
+            background-color: $card-background;
+            margin: 5px;
+            width: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(11, 60, 144, 0.744);
+        }
+
+        &__title{
+            font-size: 1.5rem;
+            font-family: $font-text;
+            color: $primary-color;
+            text-justify: auto;
+            font-style: italic;
+        }
+        &__description{
+            font-size: 1.3rem;
+            color: $primary-color;
+            font-family: $font-text;
+            padding: $padding;
+            text-justify:distribute-all-lines;
+            
+            form {
+                display: flex;
+                flex-direction: column;
+                padding: $padding;
+
+                label {
+                    display: block;
+                    font-size: 1.1rem;
+                    font-family: $font-text;
+                    color: $primary-color;
+                    padding: $padding;
+                }
+                input {
+                    display: block;
+                    width: 100%;
+                    padding: $padding;
+                    margin: $margin;
+                    border: 1px solid $primary-color;
+                    border-radius: 5px;
+                    font-size: 1.1rem;
+                    font-family: $font-text;
+                    font-weight: bold;
+                    color: $primary-color;
+                    background-color: $card-background;
+                    text-align: center;
+                    box-shadow: 0 2px 5px rgba(11, 60, 144, 0.744);
+                }
+
+            }
+        }
+        &__image{
+
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-items: center;
+            border-radius: 20%;
+            border: 2px solid;
+            border-color: $image-border-color;
+
+            @media (max-width: $breakpoint-md) {
+                display: block;
+                flex-wrap: wrap;
+                width: auto;
+                margin: 10px auto;
+                justify-content: center;
+            }
+        }
+        &__image-container{
+            width: 100%;
+            border-radius: 20px;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            justify-items: center;
+            @media (max-width: $breakpoint-md) {
+                display: block;
+                flex-wrap: wrap;
+                width: auto;
+                margin: 10px auto;
+                justify-content: center;
+            }
+
+        }
+        &__name{
+            font-size: 1.5rem;
+            font-family: $font-text;
+            color: $primary-color;
+            text-align: center;
+            font-weight: bold;
+            padding: $padding;
+            margin: 0.5rem 0;
+
+        }
+
+        &__text {
+            @include text-style(#14416b, 1.3rem, 'Ropa sans' sans-serif, bold);
+        }
+        &__rating {
+            color: #edb717;
+            margin-bottom: 1rem;
+            
+            i {
+                margin: 0 1rem;
+            }
+
+        }
+        
+    }
+
+    .contact-container {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    #contact-form .btn {
+    @include button-style(#f4cfa0, #4f3511, #967029, #e2d0ae);
+}
+
+}
+
+
