@@ -1,6 +1,6 @@
 -  ░░░ Hey there, @LeenahJz here ░░░
 -  
-# 👋 ¡Hola! Mi nombre es Sonia Alejandra Beltrán Condori
+## 👋 ¡Hola! Mi nombre es Sonia Alejandra Beltrán Condori
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=5A2D8A&center=true&vCenter=true&width=435&lines=Ingeniera+en+Electr%C3%B3nica;Desarrolladora+Front-End;Especialista+en+Energ%C3%ADa+Fotovoltaica" alt="Títulos profesionales" />
