@@ -12,7 +12,6 @@
   ```mermaid
   graph LR
     A[Ingeniería Electrónica] --> B[Energías Renovables]
-    A --> C[Desarrollo Front-End]
     B --> D[Investigación I+D]
     C --> E[Portafolio Behance]
     D --> F[Publicación EUPVSEC]
