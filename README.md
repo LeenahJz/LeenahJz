@@ -17,7 +17,7 @@
     B --> D[Investigación I+D]
     C --> E[Portafolio Behance]
     D --> F[Publicación EUPVSEC]
-
+```
 </div>
 🛠️ Habilidades Técnicas
 <p align="center"> <img src="https://skillicons.dev/icons?i=js,html,css,react,git,github,figma" /> </p><div align="center">
