@@ -1,5 +1,4 @@
--  ░░░ Hey there, @LeenahJz here ░░░
--  
+-  ░░░ ░░░ ░░░ ░░░
 ## 👋 ¡Hola! Mi nombre es Sonia Alejandra Beltrán Condori
 
 <p align="center">
