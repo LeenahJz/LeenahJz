@@ -26,7 +26,7 @@ Front-End	React, Vite, Fusion360, Autocad, PVsyst, AutoCAD, Modbus
 </div>
 🎓 Educación y Experiencia
 <details> <summary><b>📚 Educación</b></summary>
-.
+
 - Licenciada en Ingeniería en Electrónica de la Universidad de Antofagasta.
 - Enfoque en sistemas fotovoltaicos y desarrollo tecnológico
 
