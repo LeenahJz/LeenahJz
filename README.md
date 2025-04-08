@@ -47,7 +47,7 @@ Centro de Desarrollo Energético Antofagasta
 <div align="center">
 Estadísticas
 
-</div> ```
+</div>
 
                    
                                 
