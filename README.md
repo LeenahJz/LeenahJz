@@ -21,9 +21,8 @@
 🛠️ Habilidades Técnicas
 <p align="center"> <img src="https://skillicons.dev/icons?i=js,html,css,react,git,github,figma" /> </p><div align="center">
 Área	Tecnologías/Herramientas
-Front-End	React, Vite, Bootstrap
-Energía	PVsyst, AutoCAD, Modbus
-Idiomas	🇬🇧 Inglés (TOEIC)
+Front-End	React, Vite, Fusion360, Autocad, PVsyst, AutoCAD, Modbus
+
 </div>
 🎓 Educación y Experiencia
 <details> <summary><b>📚 Educación</b></summary>
