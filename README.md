@@ -23,7 +23,7 @@
 Área	Tecnologías/Herramientas
 Front-End	React, Vite, Bootstrap
 Energía	PVsyst, AutoCAD, Modbus
-Idiomas	🇬🇧 Inglés (TOEIC) 🇰🇷 Coreano
+Idiomas	🇬🇧 Inglés (TOEIC)
 </div>
 🎓 Educación y Experiencia
 <details> <summary><b>📚 Educación</b></summary>
