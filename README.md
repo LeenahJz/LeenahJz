@@ -27,25 +27,16 @@ Idiomas	🇬🇧 Inglés (TOEIC)
 </div>
 🎓 Educación y Experiencia
 <details> <summary><b>📚 Educación</b></summary>
-Universidad de Antofagasta
-Licenciada en Ingeniería en Electrónica
-Enfoque en sistemas fotovoltaicos y desarrollo tecnológico
+- Licenciada en Ingeniería en Electrónica de la Universidad de Antofagasta.
+- Enfoque en sistemas fotovoltaicos y desarrollo tecnológico
 
 </details><details> <summary><b>💼 Experiencia Profesional</b></summary>
-Centro de Desarrollo Energético de Antofagasta
-Ingeniero I+D (Ene 2024 - Presente)
+Centro de Desarrollo Energético Antofagasta
+- Ingeniera I+D (Ene 2024 - Presente)
 
-Diseño de plantas fotovoltaicas educativas
+- Diseño de plantas fotovoltaicas educativas
 
-Investigación de técnicas de reparación de paneles
-
-Análisis de eficiencia energética
-
-Práctica Profesional (Ago-Oct 2022)
-
-Pruebas de módulos fotovoltaicos
-
-Sistemas de monitorización con RS485
+- Sistemas de monitorización con RS485
 
 </details>
 🌟 Proyectos Destacados
