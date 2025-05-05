@@ -1,0 +1,14 @@
+//bem footer
+
+@use '../base/_variables.scss' as *;
+
+footer {
+
+    text-align: center;
+    background-color: darken($primary-color, 5%);
+    color: $text-color;
+    font-family: $font-text;
+    font-size: 1.2rem;
+    font-style: italic;
+    padding: $padding;
+  }

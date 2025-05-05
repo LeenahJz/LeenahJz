@@ -1,0 +1,14 @@
+
+
+//los archivos creados en scss se juntan acá e invoca a todos los archivos scss en el proyecto
+@use "base/variables";
+@use "base/reset"; 
+
+@use 'layout/header';
+@use 'layout/footer';
+@use 'layout/nav';
+@use 'layout/section';
+
+//componentes 
+@use 'components/button';
+

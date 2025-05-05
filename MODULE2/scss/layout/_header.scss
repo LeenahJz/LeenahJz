@@ -1,0 +1,94 @@
+//aplicación de modularización SASS y metodología BEM
+
+@use '../base/_variables.scss' as *;
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $primary-color;
+    color: #fff;
+    padding: $padding;
+    flex-direction: column;
+    height: 120px;
+ 
+    @media (max-width: $breakpoint-md) {
+        display: block;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    
+    .header_logo {
+        display: flex;
+        align-items: center;
+
+        @media (max-width: $breakpoint-md) {
+            display: block;
+            flex-wrap: wrap;
+            width: 100%;
+          }    
+
+        &-tittle{
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-align: center;
+            font-family: $font-text;
+
+            @media (max-width: $breakpoint-md) {
+                display: block;
+                flex-wrap: wrap;
+                width: 100%;
+                font-size: 1.9rem;
+                text-align: center;
+            }
+        }
+
+        img {
+            margin-right: 1rem;
+            height: 70px;
+
+            @media (max-width: $breakpoint-md) {
+                display: block;
+                flex-wrap: nowrap;
+                width: 50px;
+                height: 40px;
+                align-items: center;
+              }
+        
+        }
+
+    }
+    .header_button-container {
+        display: inline-block;
+        background-color: $accent-color;
+        font-family: $font-text; 
+        padding: 15px 20px;
+        border-radius: 40px;
+        font-size: 1.6rem;
+        text-decoration: none;
+        font-weight: bold;
+        color: #5b2e2ef9;
+
+        
+
+        @media (max-width: $breakpoint-md) {
+            display: block;
+            flex-wrap: wrap;
+            width: 100%;
+            font-size: 1.3rem;
+            align-items: center;
+            text-align: center;
+        }    
+
+        &:hover {
+            background-color: darken($accent-color, 10%);
+        }
+
+    }
+
+    
+}

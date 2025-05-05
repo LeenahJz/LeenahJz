@@ -1,0 +1,75 @@
+//styling in sass
+
+@use '../base/_variables.scss' as *;
+
+.nav {
+    padding: $padding;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-family: $font-text;
+    color: $text-light;
+
+
+    .nav_list {
+      display: flex;
+      justify-content: space-around;
+      padding: $padding;
+      align-items: center;
+      width: 100%;
+
+      @media (max-width: $breakpoint-md) {
+        display: block;
+      }
+      
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        list-style: none;
+        font-family: $font-text;
+        width: 100%;
+         
+        @media (max-width: $breakpoint-md) {
+          display: block;
+        }
+      }
+        
+      li {
+        padding: $padding;
+        align-items: center;
+        font-size: 18px;
+        display: inline-block;
+
+        @media (max-width: $breakpoint-md) {
+          display: block;
+          flex-wrap: wrap;
+          text-align: center;
+        }
+
+        a {
+          font-size: 1.4rem;
+          color: $text-color;
+          text-decoration: none;
+          padding: $padding;
+          background-color: $primary-color;
+          border-radius: 10px;
+
+          @media (max-width: $breakpoint-md) {
+            display: block;
+            flex-wrap: wrap;
+            text-align: center;
+            width: 100%;
+          }
+          
+          &:hover {
+            background-color: darken($primary-color, 10%);
+            text-decoration: underline;
+          }
+        }
+      
+      }
+    }
+  }   
